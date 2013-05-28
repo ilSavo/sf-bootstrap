@@ -14,7 +14,9 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
+      list:
+        display: [ =id, category, type, company, url, position ]
+        max_per_page: 5
       filter:  ~
       form:    ~
       edit:    ~
