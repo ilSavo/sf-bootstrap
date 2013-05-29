@@ -14,8 +14,11 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
+      list:
+        title: Elenco categorie
+        max_per_page: 2
       filter:  ~
       form:    ~
-      edit:    ~
+      edit:
+        title: Modifica
       new:     ~
