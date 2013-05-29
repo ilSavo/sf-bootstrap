@@ -19,4 +19,9 @@ class homepageActions extends sfActions
   {
 
   }
+
+  public function executeQualcosa(sfWebRequest $request)
+  {
+  	$a = new CategoryForm();
+  }
 }
