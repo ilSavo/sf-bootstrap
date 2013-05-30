@@ -1,6 +1,4 @@
 /cache/
 /lib/vendor/
 /log/
-/test/
-/.git/
 config/databases.yml
